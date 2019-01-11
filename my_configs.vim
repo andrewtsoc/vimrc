@@ -7,6 +7,7 @@ set nowrap
 set showcmd
 
 "highlight beyond 80th column
+set cc=80
 highlight OverLength ctermbg=darkred ctermfg=white guibg=#FFD9D9
 match OverLength /\%81v.\+/
 
